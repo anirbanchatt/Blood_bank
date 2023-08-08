@@ -16,11 +16,12 @@ Welcome to the Blood Bank Management System repository! This project aims to cre
 
 - **User Profiles**: Each user has a profile page displaying their details, donation history, and previous requests.
 
-Technologies Used
-Node.js
-Express.js
-MongoDB
-HTML/CSS
-JavaScript
+**_Technologies Used :-_**
+
+-> Node.js
+-> Express.js
+-> MongoDB
+-> HTML/CSS
+-> JavaScript
 
 ******THANK YOU******
