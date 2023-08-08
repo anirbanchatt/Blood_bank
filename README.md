@@ -1,46 +1,26 @@
-usage: git [--version] [--help] [-C <path>] [-c <name>=<value>]
-           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]
-           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--bare]
-           [--git-dir=<path>] [--work-tree=<path>] [--namespace=<name>]
-           [--super-prefix=<path>] [--config-env=<name>=<envvar>]
-           <command> [<args>]
+# Blood Bank Management System
 
-These are common Git commands used in various situations:
+Welcome to the Blood Bank Management System repository! This project aims to create a user-friendly and efficient platform for managing blood donation and distribution activities. Whether you're a blood donor, recipient, or an administrator, this system simplifies the process of matching blood donors with recipients and tracking blood inventory.
 
-start a working area (see also: git help tutorial)
-   clone             Clone a repository into a new directory
-   init              Create an empty Git repository or reinitialize an existing one
+## Features
 
-work on the current change (see also: git help everyday)
-   add               Add file contents to the index
-   mv                Move or rename a file, a directory, or a symlink
-   restore           Restore working tree files
-   rm                Remove files from the working tree and from the index
-   sparse-checkout   Initialize and modify the sparse-checkout
+- **User Roles**: The system supports three main user roles - Donors, Recipients, and Administrators, each with specific privileges and actions they can perform.
 
-examine the history and state (see also: git help revisions)
-   bisect            Use binary search to find the commit that introduced a bug
-   diff              Show changes between commits, commit and working tree, etc
-   grep              Print lines matching a pattern
-   log               Show commit logs
-   show              Show various types of objects
-   status            Show the working tree status
+- **Donation and Request**: Donors can register, update their information, and schedule blood donation appointments. Recipients can create blood donation requests based on their needs.
 
-grow, mark and tweak your common history
-   branch            List, create, or delete branches
-   commit            Record changes to the repository
-   merge             Join two or more development histories together
-   rebase            Reapply commits on top of another base tip
-   reset             Reset current HEAD to the specified state
-   switch            Switch branches
-   tag               Create, list, delete or verify a tag object signed with GPG
+- **Inventory Management**: Administrators can manage the blood inventory, updating quantities, expiration dates, and types of blood available.
 
-collaborate (see also: git help workflows)
-   fetch             Download objects and refs from another repository
-   pull              Fetch from and integrate with another repository or a local branch
-   push              Update remote refs along with associated objects
+- **Matching Algorithm**: The system includes an algorithm to match available blood with recipient requests, ensuring compatibility based on blood type and availability.
 
-'git help -a' and 'git help -g' list available subcommands and some
-concept guides. See 'git help <command>' or 'git help <concept>'
-to read about a specific subcommand or concept.
-See 'git help git' for an overview of the system.
+- **Notifications**: Donors and recipients receive notifications about appointment confirmations, successful donations, and matched requests.
+
+- **User Profiles**: Each user has a profile page displaying their details, donation history, and previous requests.
+
+Technologies Used
+Node.js
+Express.js
+MongoDB
+HTML/CSS
+JavaScript
+
+******THANK YOU******
